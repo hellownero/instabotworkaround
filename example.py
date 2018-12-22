@@ -12,7 +12,7 @@ from src.unfollow_protocol import unfollow_protocol
 bot = InstaBot(
     login="tutorspace_nachhilfe",
     password="G.Dc4eqU{'qwA\"sk",
-    like_per_day=694,
+    like_per_day=987,
     comments_per_day=0,
     tag_list=['nachhilfe', 'lernenlernenlernen', 'lernenlernen', 'französischlernen', 'lebenslangeslernen',
         'spanischlernen', 'eigentlichsollteichlernen', 'englischlernen', 'italienischlernen', 'sprachenlernen',
@@ -44,7 +44,7 @@ bot = InstaBot(
     tag_blacklist=['hotgirl', 'nsfw'],
     user_blacklist={},
     max_like_for_one_tag=10,
-    follow_per_day=276,
+    follow_per_day=20,
     follow_time=5 * 60,
     unfollow_per_day=0,
     unfollow_break_min=15,
